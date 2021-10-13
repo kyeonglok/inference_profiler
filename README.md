@@ -1,5 +1,5 @@
 # inference_profiler
-inference profiler는 triton inference server를 사용하여 추론 작업에서 구간별 추론 스택과 OS 커널의 전계층을 프로파일링 할 수 있는 프로파일러입니다.
+inference profiler는 triton inference server를 사용한 추론 작업에서 구간별 추론 스택과 OS 커널의 전계층을 프로파일링 할 수 있는 프로파일러입니다.
 커널 스택 분석을 위한 ebpf 및 bpftrace를 활용한 프로파일링 기법과 NVIDIA triton inference server의 프로파일링 도구를 활용하여 통합 프로파일링 인터페이스를 제공합니다.
 
 ## eBPF및 bpftrace를 활용한 프로파일링
